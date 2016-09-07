@@ -1,0 +1,15 @@
+{
+  "idUsuario": "ID Usuario",
+  "usuario": "usuario login",
+  "password": "Contraseña",
+  "email": "Correo electrónico",
+  "nombre": "Nombre",
+  "apellido": "Apellido",
+  "descripcion": "Descripción",
+  "ci": "Cédula de identidad",
+  "msds": "Número en Ministerio de Sanidad",
+  "cmdf": "Número en Colegio de médicos",
+  "fecha_r": "Fecha de registro",
+  "fecha_act": "Fecha última modificación",
+  "token_api": "Clave de acceso para consultas al API"
+}

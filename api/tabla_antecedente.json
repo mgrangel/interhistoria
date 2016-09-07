@@ -1,0 +1,21 @@
+{
+  "ap_trauma": "Traumatológicos",
+  "ap_quir": "Quirúrgicos",
+  "al_asa": "ASA",
+  "al_aines": "AINEs",
+  "al_penicilina": "Penicilina",
+  "al_otros": "Otros",
+  "ap_dmhiper": "DM/Hiperinsulinismo",
+  "ap_hta": "HTA",
+  "ap_asma": "Asma",
+  "ap_tiroides": "Tiroides",
+  "ap_medic": "Medicamentos",
+  "ap_notas": "Otros",
+  "efn_rigmat": "Rigidez matutina",
+  "efn_perdpeso": "Pérdida peso",
+  "efn_gpeso": "Ganancia peso",
+  "efn_apet": "Apetito",
+  "efn_micc": "Micciones",
+  "efn_evac": "Evacuaciones",
+  "efn_hpbio": "Hábitos Psicobiológicos"
+}

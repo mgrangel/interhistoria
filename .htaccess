@@ -1,0 +1,7 @@
+AuthUserFile /home3/mgideasn/public_html/interhistoria/bd/ .htpasswd
+AuthName Interhistoria_name
+AuthType Basic
+
+require user mikeven
+
+

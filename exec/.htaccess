@@ -1,0 +1,5 @@
+AuthUserFile /home3/mgideasn/public_html/interhistoria/exec/ .htpasswd
+AuthName Interhistoria_name
+AuthType Basic
+
+

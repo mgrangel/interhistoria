@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+	font-family:"Roboto-s-l";
+	src:url(../fonts/RobotoSlab-Light.ttf);
+}
+@font-face {
+	font-family:"Roboto-s-r";
+	src:url(../fonts/RobotoSlab-Regular.ttf);
+}
+@font-face {
+	font-family:"Roboto-s-b";
+	src:url(../fonts/RobotoSlab-Bold.ttf);
+}
+/* ----------------------------------------------------------------------------------------- */
+a{ color:#35A2B2 !important; font-family:Roboto-s-r; }
+a:hover{ color:#0A5A66 !important; }
+
+.lnk-inact{ color:#999 !important; font-family:Roboto-s-r; }
+.lnk-inact:hover{ color:#666 !important; }
+.lnk_gris{ color:#333 !important; font-family:Roboto-s-l !important;} .lnk_gris:hover{ color:#000 !important;; text-decoration:underline !important;; }
+
+.code_syn{ font-family:"Courier New", Courier, monospace; font-size:9px #000; font-weight:lighter;}
+
+#sesname{   
+	float: right;
+	margin: 15px 50px 0 0;
+	font-family: "Roboto-s-r"; font-size: 15px; color: #35A2B2; 
+}
+
+.banda_color{ height:8px; width:100%; background:#36A4B3; margin:12px; }
+
+.pagination>.active>a{ background-color:#F0F0F0 !important;}
+
+label{ font-family:Roboto-s-l; color:#000; }
+
+.fa{ font-family:16px; color:}
+.page-header{ float:right; margin:0 0 20px !important; padding-bottom:0 !important; }
+#form_selector{ float:left; margin-bottom:4px;}
+.dataTable{font-family:Roboto-s-l; font-size:18px !important; color:#000 !important;}
+.panel-heading{font-family:Roboto-s-b; font-size:20px !important; color:#000 !important;}
+/*Controles tablas*/
+.dataTables_length,.dataTables_info,.pagination{font-family:Roboto-s-r; font-size:14px !important; color:#000 !important;}
+/*Navegación lateral izquierda*/
+.sidebar-nav{font-family:Roboto-s-r; font-size:18px !important;}
+.panel-body, .finput{font-family:Roboto-s-b; font-size:18px !important; color:#000 !important; }
+.txform{ font-family:Roboto-s-l !important; color:#000; font-weight:lighter !important; }
+#historial_lista{ height:500px; overflow:scroll; overflow-x:hidden;}
+/* ----------------------------------------------------------------------------------------- */
+/*Forms historias*/
+.asel{color:#0A5A66 !important; font-family:Roboto-s-b;}
+
+.title{
+	font-family:Roboto-s-b;
+	font-size:23px; color:#000000;
+}
+.tform, .dataTable_wrapper{ font-family:Roboto-s-l; font-size:18px; color:#000; }
+
+.tsec{ font-family:Roboto-s-b; font-size:18px; color:#006666; }
+.stfrm{ font-family:Roboto-s-b; font-size:20px; color:#000; }
+.lsec{ font-family:Roboto-s-b; font-size:18px; color:#0A5A66; } .lsec:hover{color:#000;}
+.lseclnk{ font-family:Roboto-s-l; color:#333 !important; } .lseclnk:hover{color:#000 !important; }
+.sublabel{ font-family:Roboto-s-l; color:#666 !important; }
+.lseclnk_drop{ font-family:Roboto-s-b; font-size:18px; color:#666 !important; } .lseclnk_drop:hover{color:#0A5A66 !important; }
+
+
+#fdata_paciente{ font-family:Roboto-s-l; color:#000; }
+.lab0{ font-family:Roboto-s-l; font-size:18px; color:#0A5A66; font-weight:700; }
+.lab1{ font-family:Roboto-s-b; font-size:18px; color:#000; text-decoration:underline; }
+.extlnkform{ padding:2px 0 15px 0; }
+
+/* Opciones seleccionadas en ventanas emergentes */
+.selopciones{ font-family:Roboto-s-l; font-size:16px; color:#333; font-weight:lighter; display:table; }
+.item_opcme{ padding-right:8px; float:left; }
+.item_opcmext{ font-family:Roboto-s-l; color:#333333 !important; }
+.trslide{
+	padding:8px 0;
+	font-family:Roboto-s-l; font-size:12px;
+	color:#666;
+}
+.txrsval{
+	padding:8px;
+	font-family:Roboto-s-l; color:#000; font-size:12px;
+}
+
+#nombre_paciente{
+	float:left; 
+	padding:6px 18px;
+	color:#0A5A66;
+	font-family:Roboto-s-b;
+	font-size:18px;
+}
+
+#fixed-right {
+    background-color: #C0E6EE;
+    border: 1px solid #0A5A66;
+    border-radius: 4px;
+    float: right;
+    position: fixed;
+    min-height: 70px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+    text-align: center;
+    width: 15px;
+}
+.vtext {
+	margin-top:30px;
+	font-family:Roboto-s-b; font-size:70%;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+}
+
+/* pop-up win */
+.modal-backdrop{ position:fixed !important;} 	/*Forzar fondo oscuro al abrir ventanas modales */
+.modal-backdrop.in{ z-index:1001; }
+.subform{ margin-left:20px;}
+.dblchk{ margin-left:20px; float:left;}
+.dblchk-nm{ float:left;}
+.ldblchk{ float:left; margin-right:15px;}
+
+.sketch{ border:1px solid #006666; height:80px; border-radius:4px; padding:15px;}
+.sketch:hover{ background:#E3FFFF; cursor:pointer;}
+
+#datetimepicker[readonly]{ background:#FFFFFF; }
+.btn-form{ color:#0A5A66; background-color:#e6e6e6; border:1px solid #0A5A66 !important; 
+font-family:Roboto-s-b; font-size:18px; }
+
+.btn-form-blanco{ color:#0A5A66; background-color:#fff; border:1px solid #0A5A66 !important; 
+font-family:Roboto-s-b; font-size:18px !important; }
+.btn-form:hover{ color:#0A5A66 !important; background-color:#9CCDCD !important; }
+.pagetit{ padding:4px; float:right; }
+.sldbarval, .sldbarval_15{ margin:12px 0;}
+.labsldbarval{ padding-left:25px; float:left; }
+
+/*Forms historias*/
+
+/* Informe autogenerado */
+.uline{ text-decoration:underline; }
+
